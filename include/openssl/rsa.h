@@ -57,11 +57,11 @@
 #ifndef OPENSSL_HEADER_RSA_H
 #define OPENSSL_HEADER_RSA_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
-#include <openssl/engine.h>
-#include <openssl/ex_data.h>
-#include <openssl/thread.h>
+#include "../openssl/engine.h"
+#include "../openssl/ex_data.h"
+#include "../openssl/thread.h"
 
 #if defined(__cplusplus)
 extern "C" {

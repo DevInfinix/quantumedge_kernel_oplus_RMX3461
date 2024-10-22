@@ -15,8 +15,8 @@
 #ifndef OPENSSL_HEADER_TRUST_TOKEN_H
 #define OPENSSL_HEADER_TRUST_TOKEN_H
 
-#include <openssl/base.h>
-#include <openssl/stack.h>
+#include "../openssl/base.h"
+#include "../openssl/stack.h"
 
 #if defined(__cplusplus)
 extern "C" {

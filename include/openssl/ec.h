@@ -68,7 +68,7 @@
 #ifndef OPENSSL_HEADER_EC_H
 #define OPENSSL_HEADER_EC_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
 #if defined(__cplusplus)
 extern "C" {
@@ -396,7 +396,7 @@ OPENSSL_EXPORT void EC_POINT_clear_free(EC_POINT *point);
 #endif
 
 // Old code expects to get EC_KEY from ec.h.
-#include <openssl/ec_key.h>
+#include "../openssl/ec_key.h"
 
 #if defined(__cplusplus)
 extern "C++" {

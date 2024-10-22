@@ -57,10 +57,10 @@
 #ifndef OPENSSL_HEADER_OBJ_H
 #define OPENSSL_HEADER_OBJ_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
-#include <openssl/bytestring.h>
-#include <openssl/nid.h>
+#include "../openssl/bytestring.h"
+#include "../openssl/nid.h"
 
 #if defined(__cplusplus)
 extern "C" {

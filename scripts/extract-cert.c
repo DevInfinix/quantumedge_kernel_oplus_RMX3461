@@ -18,10 +18,10 @@
 #include <stdbool.h>
 #include <string.h>
 #include <err.h>
-#include <openssl/bio.h>
-#include <openssl/pem.h>
-#include <openssl/err.h>
-#include <openssl/engine.h>
+#include "../openssl/bio.h"
+#include "../openssl/pem.h"
+#include "../openssl/err.h"
+#include "../openssl/engine.h"
 
 #define PKEY_ID_PKCS7 2
 

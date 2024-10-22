@@ -57,9 +57,9 @@
 #ifndef OPENSSL_HEADER_DH_H
 #define OPENSSL_HEADER_DH_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
-#include <openssl/thread.h>
+#include "../openssl/thread.h"
 
 #if defined(__cplusplus)
 extern "C" {

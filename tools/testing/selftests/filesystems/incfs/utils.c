@@ -16,8 +16,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include <openssl/sha.h>
-#include <openssl/md5.h>
+#include "../openssl/sha.h"
+#include "../openssl/md5.h"
 
 #include "utils.h"
 

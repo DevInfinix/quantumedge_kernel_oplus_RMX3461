@@ -150,7 +150,7 @@
 #ifndef OPENSSL_HEADER_TLS1_H
 #define OPENSSL_HEADER_TLS1_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
 #ifdef  __cplusplus
 extern "C" {

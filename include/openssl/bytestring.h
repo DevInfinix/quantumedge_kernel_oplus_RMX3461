@@ -15,9 +15,9 @@
 #ifndef OPENSSL_HEADER_BYTESTRING_H
 #define OPENSSL_HEADER_BYTESTRING_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
-#include <openssl/span.h>
+#include "../openssl/span.h"
 
 #if defined(__cplusplus)
 extern "C" {

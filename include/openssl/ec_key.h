@@ -68,11 +68,11 @@
 #ifndef OPENSSL_HEADER_EC_KEY_H
 #define OPENSSL_HEADER_EC_KEY_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
-#include <openssl/ec.h>
-#include <openssl/engine.h>
-#include <openssl/ex_data.h>
+#include "../openssl/ec.h"
+#include "../openssl/engine.h"
+#include "../openssl/ex_data.h"
 
 #if defined(__cplusplus)
 extern "C" {

@@ -57,18 +57,18 @@
 #ifndef OPENSSL_HEADER_PEM_H
 #define OPENSSL_HEADER_PEM_H
 
-#include <openssl/base64.h>
-#include <openssl/bio.h>
-#include <openssl/cipher.h>
-#include <openssl/digest.h>
-#include <openssl/evp.h>
-#include <openssl/pkcs7.h>
-#include <openssl/stack.h>
-#include <openssl/x509.h>
+#include "../openssl/base64.h"
+#include "../openssl/bio.h"
+#include "../openssl/cipher.h"
+#include "../openssl/digest.h"
+#include "../openssl/evp.h"
+#include "../openssl/pkcs7.h"
+#include "../openssl/stack.h"
+#include "../openssl/x509.h"
 
 // For compatibility with open-iscsi, which assumes that it can get
 // |OPENSSL_malloc| from pem.h or err.h
-#include <openssl/crypto.h>
+#include "../openssl/crypto.h"
 
 #ifdef __cplusplus
 extern "C" {

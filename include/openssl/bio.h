@@ -57,15 +57,15 @@
 #ifndef OPENSSL_HEADER_BIO_H
 #define OPENSSL_HEADER_BIO_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
 #include <stdio.h>  // For FILE
 
-#include <openssl/buffer.h>
-#include <openssl/err.h>  // for ERR_print_errors_fp
-#include <openssl/ex_data.h>
-#include <openssl/stack.h>
-#include <openssl/thread.h>
+#include "../openssl/buffer.h"
+#include "../openssl/err.h"  // for ERR_print_errors_fp
+#include "../openssl/ex_data.h"
+#include "../openssl/stack.h"
+#include "../openssl/thread.h"
 
 #if defined(__cplusplus)
 extern "C" {

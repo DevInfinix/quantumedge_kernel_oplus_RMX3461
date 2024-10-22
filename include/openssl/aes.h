@@ -49,7 +49,7 @@
 #ifndef OPENSSL_HEADER_AES_H
 #define OPENSSL_HEADER_AES_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
 #if defined(__cplusplus)
 extern "C" {

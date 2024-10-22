@@ -57,7 +57,7 @@
 #ifndef OPENSSL_HEADER_CIPHER_H
 #define OPENSSL_HEADER_CIPHER_H
 
-#include <openssl/base.h>
+#include "../openssl/base.h"
 
 #if defined(__cplusplus)
 extern "C" {

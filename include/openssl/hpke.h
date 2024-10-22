@@ -15,10 +15,10 @@
 #ifndef OPENSSL_HEADER_CRYPTO_HPKE_INTERNAL_H
 #define OPENSSL_HEADER_CRYPTO_HPKE_INTERNAL_H
 
-#include <openssl/aead.h>
-#include <openssl/base.h>
-#include <openssl/curve25519.h>
-#include <openssl/digest.h>
+#include "../openssl/aead.h"
+#include "../openssl/base.h"
+#include "../openssl/curve25519.h"
+#include "../openssl/digest.h"
 
 #if defined(__cplusplus)
 extern "C" {

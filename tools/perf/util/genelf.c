@@ -46,11 +46,11 @@
 #undef BUILD_ID_URANDOM /* different uuid for each run */
 
 #ifdef BUILD_ID_SHA
-#include <openssl/sha.h>
+#include "../openssl/sha.h"
 #endif
 
 #ifdef BUILD_ID_MD5
-#include <openssl/md5.h>
+#include "../openssl/md5.h"
 #endif
 #endif
 
